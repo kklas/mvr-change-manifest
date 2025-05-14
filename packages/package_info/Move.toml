@@ -1,6 +1,7 @@
 [package]
 name = "package_info"
 edition = "2024.beta"
+published-at = "0x0f6b71233780a3f362137b44ac219290f4fd34eb81e0cb62ddf4bb38d1f9a3a1
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet", override=true }
@@ -13,4 +14,4 @@ Codec = { git = "https://github.com/sui-potatoes/app.git", subdir = "packages/co
 # Codec = { git = "https://github.com/sui-potatoes/app.git", subdir = "packages/codec", rev = "codec@testnet-v1" }
 
 [addresses]
-package_info="0x0"
+package_info="0x0f6b71233780a3f362137b44ac219290f4fd34eb81e0cb62ddf4bb38d1f9a3a1"
