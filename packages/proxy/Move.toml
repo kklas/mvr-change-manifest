@@ -1,11 +1,12 @@
 [package]
 name = "mvr_subdomain_proxy"
 edition = "2024.beta"
+published-at = "0x096c9bed5a312b888603f462f22084e470cc8555a275ef61cc12dd83ecf23a04"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet", override = true }
 mvr = { local = "../mvr" }
 
 [addresses]
-mvr_subdomain_proxy = "0x0"
+mvr_subdomain_proxy = "0x096c9bed5a312b888603f462f22084e470cc8555a275ef61cc12dd83ecf23a04"
 
